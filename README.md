@@ -59,4 +59,3 @@ yarn dev
 * [Eslint](https://eslint.org/)
 
 ---
-<p align="center">Feito por Wend Carlos 👋</p>
