@@ -1,4 +1,7 @@
 import app from './app'
-const port = 3001
 
-app.listen(port, () => console.log(`✔ Servidor online na porta: [${port}]`))
+const port = process.env.PORT || 3001
+
+app.listen(port, '0.0.0.0', () =>
+  console.log(`✔ Servidor online na porta: [${port}]`)
+)
