@@ -6,8 +6,7 @@ import cors from 'cors'
 import './database'
 
 const corsOptions = {
-  origin: ['https://codeburgerinterface.vercel.app'],
-  // origin: ['https://codeburgerinterface.vercel.app', 'http://localhost:3000'],
+  origin: ['https://codeburgerinterface.vercel.app', 'http://localhost:3000'],
   credentials: true,
 }
 
